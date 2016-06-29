@@ -1,0 +1,62 @@
+body, html{
+  margin:0;
+  padding:0;
+  color:#000;
+
+}
+#wrap{
+  width:750px;
+  margin:0 auto;
+  background:#99c;
+
+}
+h1{
+  margin:0;
+}
+#header1 {
+  background-color: #DDDDDD;
+  padding:5px 10px;
+}
+
+#nav {
+  background-color: #CC9999;
+  padding:5px 10px;
+}
+#nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+#nav li{
+  display:inline;
+  /*display inline took the list and fit them horizontally next to each other*/
+  margin:0;
+  padding:0;
+}
+#main {
+  background-color: #99CC99;
+  float:left;
+  width:480px;
+  padding:10px;
+}
+#sidebar {
+  background-color: #9999CC;
+  float:right;
+  width:230px;
+  padding:10px;
+
+}
+h2{
+  margin:0 0 1em;
+}
+#footer {
+  background-color: #CCCC99;
+  clear:both;
+  padding:5px 10px;
+  /*clear:both to bring footer to the bottom of the page.  its affected by the floats*/
+}
+#footer p{
+  margin:0;
+}
+
+/*http://www.456bereastreet.com/lab/developing_with_web_standards/csslayout/2-col/*/
